@@ -1,0 +1,249 @@
+-- NyteByte send notification
+-- basically forces you to copy the join link to clip board since time the notification is on your screen is 99999999999999 trillion
+
+setclipboard("https://discord.gg/PFZDnwHtMs")
+if game.PlaceId == 263761432
+then
+local function callback(text)
+    if text == "Yeah, sure" then
+        print ("Thanks for supporting NyteByte")
+        setclipboard("https://discord.gg/PFZDnwHtMs")
+local bindableFunction = Instance.new("BindableFunction")
+bindableFunction.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification", {
+    Title = "thanks for supporting us"; -- Required. Has to be a string!
+    Text = "ping @Masked_ski and call him a nigger monkey"; -- Required. Has to be a string!
+    Icon = ""; -- Optional, defaults to "" (no icon)
+    Duration = 999999999999999999999999999999999999999999999999999999999999999999; -- Optional, defaults to 5 seconds
+    Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
+    Button1 = "ok"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+    Button2 = "nah, i like him"; -- Optional, makes another button appear with the given text that, when clicked, fires the Callback if it's given
+})
+elseif text == "Nah, fuck you" then
+
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+
+        local bindableFunction = Instance.new("BindableFunction")
+bindableFunction.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification", {
+    Title = "faggot, its copied now"; -- Required. Has to be a string!
+    Text = "ahahha"; -- Required. Has to be a string!
+    Icon = ""; -- Optional, defaults to "" (no icon)
+    Duration = 999999999999999999999999999999999999999999999999999999999999999999; -- Optional, defaults to 5 seconds
+    Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
+    Button1 = "nigga"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+    Button2 = "nigger"; -- Optional, makes another button appear with the given text that, when clicked, fires the Callback if it's given
+})
+        print("nah, fuck you nigger >:)")
+        setclipboard("https://discord.gg/PFZDnwHtMs")
+    end
+end
+
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+
+local bindableFunction = Instance.new("BindableFunction")
+bindableFunction.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Welcome to NyteByte GUI"; -- Required. Has to be a string!
+    Text = "Do you want the discord join invite link?"; -- Required. Has to be a string!
+    Icon = ""; -- Optional, defaults to "" (no icon)
+    Duration = 999999999999999999999999999999999999999999999999999999999999999999; -- Optional, defaults to 5 seconds
+    Callback = bindableFunction; -- Optional, gets invoked with the text of the button the user pressed
+    Button1 = "Yeah, sure"; -- Optional, makes a button appear with the given text that, when clicked, fires the Callback if it's given
+    Button2 = "Nah, fuck you"; -- Optional, makes another button appear with the given text that, when clicked, fires the Callback if it's given
+})
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+
+
+-- copy that and put it in the new script on NyteByte, ezpz
+
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.936392069, 0, 0.901337802, 0)
+ImageLabel.Size = UDim2.new(0, 61, 0, 59)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6887057146"
+
+wait(5)
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.020855058, 0, 0.135451511, 0)
+Frame.Size = UDim2.new(0, 446, 0, 326)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0927173346, 0, 0.036809817, 0)
+TextLabel.Size = UDim2.new(0, 362, 0, 57)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = "NyteByte horrific housing"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0189655181, 0, 0.260736197, 0)
+TextButton.Size = UDim2.new(0, 185, 0, 51)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Teleport behind the vending machine"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.487307459, 0, 0.260736197, 0)
+TextButton_2.Size = UDim2.new(0, 185, 0, 51)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Teleport to the end of the obby"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.486039281, 0, 0.741900444, 0)
+TextButton_3.Size = UDim2.new(0, 185, 0, 51)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Die a painful death (look in console)"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.0181822851, 0, 0.741900444, 0)
+TextButton_4.Size = UDim2.new(0, 185, 0, 51)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Lose virginity (look in console)"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.487238705, 0, 0.475101024, 0)
+TextButton_5.Size = UDim2.new(0, 185, 0, 51)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "JumpPower 150"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.0181822851, 0, 0.475101024, 0)
+TextButton_6.Size = UDim2.new(0, 185, 0, 51)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "WalkSpeed 100"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+-- Scripts:
+
+local function RJYT_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-21.9552059, 5.54499865, -1.57520199, -0.999822319, -2.41986386e-09, 0.0188513454, -1.06371512e-09, 1, 7.1949124e-08, -0.0188513454, 7.19162827e-08, -0.999822319)
+	end)
+end
+coroutine.wrap(RJYT_fake_script)()
+local function LRNVGI_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Draggable = true;
+end
+coroutine.wrap(LRNVGI_fake_script)()
+local function UDGT_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7.4380827, 125.950027, -117.64814, 0.106119461, -3.9215891e-08, 0.994353414, -7.50837685e-08, 1, 4.74516817e-08, -0.994353414, -7.96953472e-08, 0.106119461)
+		end)
+end
+coroutine.wrap(UDGT_fake_script)()
+local function KODWZMH_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	print("die")
+	end)
+end
+coroutine.wrap(KODWZMH_fake_script)()
+local function OFOM_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		print("wanking off")
+		print("cumming")	
+	print("cumming inside girl")	
+	end)
+end
+coroutine.wrap(OFOM_fake_script)()
+local function WEJR_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150	
+	end)
+end
+coroutine.wrap(WEJR_fake_script)()
+local function IVVELG_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+end
+coroutine.wrap(IVVELG_fake_script)()
+end
