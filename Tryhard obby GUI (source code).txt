@@ -1,4 +1,3 @@
-setclipboard("https://discord.gg/PFZDnwHtMs")
 if game.PlaceId == 6428195798
 then
 local ScreenGui = Instance.new("ScreenGui")
